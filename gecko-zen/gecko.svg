@@ -1,0 +1,32 @@
+<svg width="260" height="200" viewBox="0 0 260 200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Tail -->
+  <path d="M40 110 
+           C10 90, 10 50, 60 60
+           C110 70, 70 120, 90 140" fill="none" stroke="#F28C28" stroke-width="18" stroke-linecap="round"></path>
+
+  <!-- Body -->
+  <ellipse cx="150" cy="110" rx="55" ry="35" fill="#FFA94D"></ellipse>
+
+  <!-- Head -->
+  <circle cx="200" cy="95" r="30" fill="#FFA94D"></circle>
+
+  <!-- Belly highlight -->
+  <ellipse cx="150" cy="120" rx="30" ry="18" fill="#FFD8A8" opacity="0.6"></ellipse>
+
+  <!-- Eyes -->
+  <circle cx="190" cy="90" r="8" fill="white"></circle>
+  <circle cx="210" cy="90" r="8" fill="white"></circle>
+  <circle cx="190" cy="92" r="4" fill="#222"></circle>
+  <circle cx="210" cy="92" r="4" fill="#222"></circle>
+
+  <!-- Smile -->
+  <path d="M185 105 Q200 115 215 105" stroke="#A64B00" stroke-width="3" fill="none" stroke-linecap="round"></path>
+
+  <!-- Legs -->
+  <ellipse cx="120" cy="145" rx="15" ry="8" fill="#F28C28"></ellipse>
+  <ellipse cx="180" cy="145" rx="15" ry="8" fill="#F28C28"></ellipse>
+  <ellipse cx="120" cy="75" rx="15" ry="8" fill="#F28C28"></ellipse>
+  <ellipse cx="180" cy="75" rx="15" ry="8" fill="#F28C28"></ellipse>
+
+</svg>

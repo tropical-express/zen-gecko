@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gecko Zen v2.2 🦎</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Intro Screen -->
+<div id="introScreen">
+    <h2>Welcome to Gecko Zen 🦎</h2>
+    <p>Gently move your mouse or finger over the gecko. No tapping, no harming. Just calm, gentle interaction.</p>
+    <button id="startBtn">Start</button>
+</div>
+
+<h1>Gecko Zen 🦎</h1>
+<div class="subtitle">Gently move your mouse or finger over the gecko to build trust.</div>
+
+<!-- Gecko Container -->
+<div id="gecko-container">
+    <!-- Insert your existing neon orange SVG here -->
+    <svg id="gecko" width="300" height="220" viewBox="0 0 300 220">
+        <!-- Your neon orange gecko SVG content -->
+    </svg>
+</div>
+
+<!-- Trust Meter -->
+<div id="trustBar"><div id="trustFill"></div></div>
+<div id="message">The gecko is observing you...</div>
+
+<!-- Music Toggle -->
+<audio id="bgMusic" loop autoplay>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+</audio>
+<button id="musicToggle">🎵 Toggle Music</button>
+
+<script src="script.js"></script>
+<script src="music.js"></script>
+</body>
+</html>
